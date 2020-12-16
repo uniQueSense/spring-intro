@@ -7,5 +7,4 @@
     <bean id="messageService" scope="prototype" class="com.example.RandomTextMessageService"></bean>
     <bean id="messageService1" scope="prototype" class="com.example.MyNameMessageService"></bean>
 
-
 </beans>
