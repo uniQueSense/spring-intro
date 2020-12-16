@@ -1,10 +1,12 @@
 package com.example;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Random;
 @Component("messageService0")
+@Scope("prototype")
 
 public class RandomTextMessageService implements MessageService {
 
